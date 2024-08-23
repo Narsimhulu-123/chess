@@ -15,6 +15,9 @@ img{
     display: none;
 }
 
-.icon:hover~.content {
+#icon:checked+.content {
     display: block;
+}
+#icon{
+    display: none;
 }
